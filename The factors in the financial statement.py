@@ -89,10 +89,10 @@ def pur(data,factor,stop):   # the function to purchase the stock. stop is dicti
     return capital,stop
     
     
-data = pd.read_csv("2010-2018mcap.csv",dtype={'code':str})   # read the data
+data = pd.read_csv("2010-2018mcap.csv",dtype={'code':str})   # read the factor data
 data = data.loc[data['date'] > '2011']
 del data['Unnamed: 0']
-df = pd.read_csv('2010-2018market,zyyx.csv', index_col = 'date',dtype={'code':str})
+df = pd.read_csv('2010-2018market,zyyx.csv', index_col = 'date',dtype={'code':str})   # read the price data, we use Cum dividend price
 tradedate = pd.read_csv('2011-2018tradedate.csv')   # the date when stock market open
 del df['Unnamed: 0']
 
