@@ -5,6 +5,7 @@ Aim to basiclly test some factors of stock in Chinese stock market, whether they
 ### The factors in the financial statement — Market value
 data source:  https://pan.baidu.com/s/12JgeC6wT6Nj6Pgq7Feg25A
 
+
 Actually, after the statements are announced, we can use the data to divide the stock into 5 groups in the ascending order. Then use diffrent account to purchase them and calculate the earning respectively. (In fact, I consider the suspended stock, but no fee of trading.)
 
 For some factors, we can get them from the financial statements directly. Take the market-value as an example. (We could get the daily market-value, but here we assume we get factor from seasonal statements.)  
