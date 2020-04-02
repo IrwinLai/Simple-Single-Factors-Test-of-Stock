@@ -11,7 +11,7 @@ Actually, after the statements are announced, we can use the data to divide the 
 For some factors, we can get them from the financial statements directly. Take the market-value as an example. (We could get the daily market-value, but here we assume we get factor from seasonal statements.)  
 
 Market-value factor test result is shown below. The 0-20 means the stock group with top 20% market-value, and the 80-100 means the smell companies. Obviously, the small company's return is much higher than the big one, just as the Fama three-factor-model shows. Also, after 2016, comparing to small company, the big company starts to have better performance, which is something we need to pay attention to.
-![](https://ws3.sinaimg.cn/large/006tNc79gy1ftld75nbm0j311e0cqgmb.jpg)
+![](https://tva1.sinaimg.cn/large/00831rSTgy1gdg0wwhj5kj30n207y3yt.jpg)
 
 ps: In the code, I calculate the daily earning, so it takes a long time to run. Actually, we can just calculate the earning when we shift the position.
 
@@ -25,21 +25,21 @@ As we know, some derivative factors can not be downloaded directly, we need to c
 We compute the variance of a certain stock monthly (to make it easier to run, we use the hs300 index's component), and then devide them into 5 groups according to the variance.
 
 Change the position monthly. The result is here. The company, whose price varies dramatically, may have a better return in the long run probably. However, the companies with most stable price are not the worst.
-![](https://ws3.sinaimg.cn/large/006tNc79gy1ftmd7xio38j31140csq3h.jpg)
+![](https://tva1.sinaimg.cn/large/00831rSTgy1gdg0xgrxqpj30n207imxg.jpg)
 
 
 ----
 ### Some other tests for whole market
 #### Financial Leverag
-![](https://ws2.sinaimg.cn/large/006tNc79gy1ftmde4aa7uj310y0demxs.jpg)
+![](https://tva1.sinaimg.cn/large/00831rSTgy1gdg0wk8lmij30n207sdg3.jpg)
 
 #### ROE
-![](https://ws4.sinaimg.cn/large/006tNc79gy1ftmdf1n9v6j310y0cswf0.jpg)
+![](https://tva1.sinaimg.cn/large/00831rSTgy1gdg0wc40ppj30n207s3yq.jpg)
 
 #### Revenue
 Actually, this factor is similar to market-vaule. For the big company usually has more income.
-![](https://ws2.sinaimg.cn/large/006tNc79gy1ftmdgid159j31160d2t9g.jpg)
+![](https://tva1.sinaimg.cn/large/00831rSTgy1gdg0vp9lsbj30n207q0t2.jpg)
 
 #### Net Profit
-![](https://ws1.sinaimg.cn/large/006tNc79gy1ftmdfqv0pfj310k0cq74z.jpg)
+![](https://tva1.sinaimg.cn/large/00831rSTgy1gdg0w04bfgj30n207qdg5.jpg)
 
